@@ -1,0 +1,20 @@
+<resources>
+    /* Basic */
+    <string name="app_name">ProjectR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    /* FirstLayout */
+    <string name="firstPort">- Port number : </string>
+    <string name="firstNFC">- NFC number : </string>
+    <string name="firstNICK">- Nick name : </string>
+    <string name="firstConfirm">생성</string>
+    <string name="firstInsert">참가</string>
+    /* FirstTextView */
+    <string name="firstClient">>> 입장하기</string>
+    <string name="firstCreate">>> 생성하기</string>
+    <string name="firstTime">- Game Time : </string>
+    <string name="firstGam">- Treasure Count (3 - 7) : </string>
+    /* TwoLayout */
+    <string name="twoTimeText">현재시간</string>
+    <string name="twoItem1Button">A</string>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/firstTotalLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/insertbg">
+
+        <ImageView
+            android:id="@+id/maininsertImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/client"/>
+
+        /* Nickname Layout */
+        <LinearLayout
+            android:id="@+id/NinameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            /* Nickname Text */
+            <TextView
+                android:id = "@+id/NicknameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:text="@string/firstNICK" />
+            /* Nickname Eidt */
+            <EditText
+                android:id="@+id/NicknameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        /* NFC Layout */
+        <LinearLayout
+            android:id ="@+id/NFCLatout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            /* NFC Text */
+            <TextView
+                android:id = "@+id/NFCText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="@string/firstNFC" />
+            /* NFC Eidt */
+            <TextView
+                android:id="@+id/NFCEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        /* TEAM Layout */
+        <LinearLayout
+            android:id ="@+id/TEAMLatout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            /* TEAM Text */
+            <TextView
+                android:id="@+id/TEAMText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firstTime"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+            <RadioGroup
+                android:id="@+id/TEAMRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            /* A TEAM Radio */
+            <RadioButton
+                android:id="@+id/TEAMARadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:text="A"/>
+            /* B TEAM Radio */
+            <RadioButton
+                android:id="@+id/TEAMBRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="B"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        /* PORT Layout */
+        <LinearLayout
+            android:id ="@+id/PORTLatout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            /* NFC Text */
+            <TextView
+                android:id = "@+id/PORTText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="@string/firstPort" />
+            /* NFC Eidt */
+            <EditText
+                android:id="@+id/PORTEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        /* Client Button */
+        <Button
+            android:id="@+id/ClientInsertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clientplay"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

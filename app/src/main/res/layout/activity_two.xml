@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TwoMain"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/TwoGamRelative"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/imagebar">
+        /* TwoLayout Time Text */
+        <TextView
+            android:id="@+id/TwoGamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:text="@string/twoTimeText"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        /* TwoLayout Gam Text */
+        <TextView
+            android:id="@+id/TwoTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/twoTimeText"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    /* TotalRelativeLayout */
+    <RelativeLayout
+        android:id="@+id/TwoTotalRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        /* DAUM MAP API */
+        <RelativeLayout
+            android:id="@+id/TwoDaumRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView">
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/botten"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView" />
+        /* Item 1 */
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TwoItemfind"
+            android:background="@drawable/itemfind"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        /* Item 2 */
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TwoItemam"
+            android:background="@drawable/itemam"
+            android:layout_below="@+id/TwoItemfind"
+            android:layout_alignLeft="@+id/TwoItemfind"
+            android:layout_alignStart="@+id/TwoItemfind" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectr" >
+
+    /* UserPermission */
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.NFC"></uses-permission>
+
+    /* UserFeature */
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        /* Intro */
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        /* Main */
+        <activity
+            android:name=".SubActivity1"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.projectr.SubActivity2"
+            android:label="SubActivity2">
+        </activity>
+        <activity
+            android:name="com.example.projectr.SubActivity3"
+            android:label="SubActivity3">
+        </activity>
+        <activity
+            android:name="com.example.projectr.SubActivity4"
+            android:label="SubActivity4">
+        </activity>
+
+    </application>
+</manifest>
