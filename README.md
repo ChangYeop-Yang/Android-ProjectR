@@ -1,5 +1,18 @@
-# ■ Android-ProjectR
-Samsung Software Membership 4 Team ProjectR Project
+# ■ Android-ProjectR (SAMSUNG SOFTWARE MEMBERSHIP)
+
+* 1991년에 설립된 삼성소프트웨어멤버십은 IT 분야에서 연구와 개발에 열정적이고 창의적인 재능이 있는 대학(원)생을 발굴하여 잠재력을 키우고 역량을 마음껏 발휘할 수 있도록 지원하는 곳입니다.
+
+* 대한민국 최고의 IT 전문가 집단인 삼성소프트웨어멤버십은 고급 IT 기술 교류의 장이 되어가고 있으며 26년간 운영되고 있습니다.
+
+<p align="center">
+  <img src="https://scontent-icn1-1.cdninstagram.com/vp/68f6e5860edcb7e7f6995eb514e41a06/5CAA0A81/t51.2885-15/e35/927152_1740395256188927_1359313576_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com" width="400" height="400" />
+</p>
+
+## ★ Photo for Activity
+
+|:bookmark: Photo for Activity 001|:bookmark: Photo for Activity 002|:bookmark: Photo for Activity 003|
+|:-------------------------------:|:-------------------------------:|:-------------------------------:|
+|![](https://user-images.githubusercontent.com/20036523/50083214-60fa0b80-0236-11e9-8c59-98e799effcd2.jpg)|![](https://user-images.githubusercontent.com/20036523/50083215-60fa0b80-0236-11e9-9540-daa23257672f.jpg)|![](https://user-images.githubusercontent.com/20036523/50083217-60fa0b80-0236-11e9-9405-dc513b4d75f7.png)|
 
 ## ★ REFERENCE
 
