@@ -3,6 +3,8 @@ Samsung Software Membership 4 Team ProjectR Project
 
 ## ★ REFERENCE
 
+:airplane: [SAMSUNG SOFTWARE MEMBERSHIP](http://secmem.org/)
+
 ## ★ Developer Information
 
 |:rocket: Github QR Code|:pencil: Naver-Blog QR Code|:eyeglasses: Linked-In QR Code|
