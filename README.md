@@ -26,8 +26,6 @@
 
 :airplane: [SAMSUNG SOFTWARE MEMBERSHIP](http://secmem.org/)
 
-:airplane: [Evidentary Document - Google Drive](http://bit.ly/2QJFSFw)
-
 ## ★ Developer Information
 
 |:rocket: Github QR Code|:pencil: Naver-Blog QR Code|:eyeglasses: Linked-In QR Code|
