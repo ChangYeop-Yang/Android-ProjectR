@@ -14,6 +14,14 @@
 |:-------------------------------:|:-------------------------------:|:-------------------------------:|
 |![](https://user-images.githubusercontent.com/20036523/50083214-60fa0b80-0236-11e9-8c59-98e799effcd2.jpg)|![](https://user-images.githubusercontent.com/20036523/50083215-60fa0b80-0236-11e9-9540-daa23257672f.jpg)|![](https://user-images.githubusercontent.com/20036523/50083217-60fa0b80-0236-11e9-9405-dc513b4d75f7.png)|
 
+## ★ Activity Contents
+
+* Basic algorithm training for software development (Software 개발에 필요 한 기초 알고리즘 교육)
+
+* Execute development project for each 4-person team using the agile process project development method (Agile Process 프로젝트 개발 방법을 활용 한 4인 팀 단위의 개발 프로젝트 수행)
+
+* Related education such as operating system, computer structure, and data structure necessary for software development (Software 개발에 필요 한 운영체제, 컴퓨터 구조, 자료구조 등 관련 교육)
+
 ## ★ REFERENCE
 
 :airplane: [SAMSUNG SOFTWARE MEMBERSHIP](http://secmem.org/)
